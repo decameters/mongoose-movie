@@ -32,4 +32,4 @@ User's should be able to add a review and see the reviews of others.
 
 ## Pro Mode
 
-Research and use FileStack to to upload images for movies instead of entering a link directly onto the page.
+Research and use [FileStack](https://www.filestack.com) to to upload images for movies instead of entering a link directly onto the page.
