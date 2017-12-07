@@ -6,7 +6,7 @@ Use GitHub to work as a team on this project. Split up the tasks and use Pull Re
 
 ### Movie Search View
 
-Users should be able to search the database for movies. Clickin on a movie poster image should bring the user to the detailed view for that specific movie. Clicking the `Add New Movie` button should bring the user to the Add Movie view.
+Users should be able to search the database for movies. Clicking on a movie poster image should bring the user to the detailed view for that specific movie. Clicking the `Add New Movie` button should bring the user to the Add Movie view.
 
 ![Movie Search View](images/movie-search-view.png)
 
