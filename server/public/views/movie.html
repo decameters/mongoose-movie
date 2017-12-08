@@ -5,10 +5,13 @@
     <input class="form-control" type="text" ng-model="movieSearch" placeholder="Search for a Movie Title"/>
     <br>
     <div class="row">
+        <a href=""></a>
         <div class="col-md-4" ng-repeat="movie in vm.movie.list | filter: movieSearch">
+            
             <p>
-                <a href="http://localhost:5000/#!/moviedetails"><img ng-src="{{movie.posterUrl}}" width="250" class="center-block"/></a>
+                <a href="http://localhost:5000/#!/moviedetails/{{movie._id}}"><img ng-src="{{movie.posterUrl}}" width="250" class="center-block"/></a>
             </p>
+            
         </div>
     </div>
 </div>
