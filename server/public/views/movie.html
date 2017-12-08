@@ -1,3 +1,14 @@
-<h1>MOVIES GALORE</h1>
-
-{{ 1 + 1}}
+<div class="container">
+<div class="jumbotron text-center">
+    <h1 class="display-3">Movies</h1>
+</div>
+    <input class="form-control" type="text" ng-model="movieSearch" placeholder="Search for a Movie Title"/>
+    <br>
+    <div class="row">
+        <div class="col-md-4" ng-repeat="movie in vm.movie.list | filter: movieSearch">
+            <p>
+                <a href="http://localhost:5000/#!/moviedetails"><img ng-src="{{movie.posterUrl}}" width="250" class="center-block"/></a>
+            </p>
+        </div>
+    </div>
+</div>
