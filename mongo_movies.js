@@ -22,7 +22,7 @@ db.movies.insert({
     
 db.movies.insert({
     title: "The Hobbit" ,
-    posterUrl: "images/hobbit" ,
+    posterUrl: "images/hobbit.jpg" ,
     description: "A reluctant hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug"
     });
     
@@ -34,6 +34,6 @@ db.movies.insert({
 
 db.movies.insert({
     title: "Home Alone" ,
-    posterUrl: "images/home_alone" ,
+    posterUrl: "images/home_alone.jpg" ,
     description: "An eight-year-old troublemaker must protect his house from a pair of burglars when he is accidentally left home alone by his family during Christmas vacation."
     });   
