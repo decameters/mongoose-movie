@@ -1,0 +1,27 @@
+{
+  "name": "angular-route-params-mongoose-movie",
+  "version": "1.0.0",
+  "description": "Use GitHub to work as a team on this project. Split up the tasks and use Pull Requests to merge your code. Spend some time (probably 15+ minutes) planning before diving into the code.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsteffenhagen/angular-route-params-mongoose-movie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsteffenhagen/angular-route-params-mongoose-movie/issues"
+  },
+  "homepage": "https://github.com/tsteffenhagen/angular-route-params-mongoose-movie#readme",
+  "dependencies": {
+    "angular": "^1.6.7",
+    "angular-route": "^1.6.7",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.6"
+  }
+}
