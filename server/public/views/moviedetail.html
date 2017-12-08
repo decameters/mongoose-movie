@@ -1,8 +1,17 @@
-<h1>almost there</h1>
+<div class="container">
+    <div class="jumbotron text-center">
+        <h1 class="display-3">{{vm.movieDetail.list[0].title}}
+        </h1>
+    </div>
+    <div class="row">
+        <a href=""></a>
+        <div class="col-md-12">
+            <h3 class="moviedetail">Movie Synopsis:</h3>
+            <h4 class="moviedetail">{{vm.movieDetail.list[0].description}}</h4>
+            <p>
+                <img ng-src="{{vm.movieDetail.list[0].posterUrl}}" width="250" class="center-block" />
+            </p>
 
-
-{{vm.movieDetail.list[0].title}}
-{{}}
-<img ng-src="{{vm.movieDetail.list[0].posterUrl}}" width="250" class="center-block"/>
-
-{{vm.movieDetail.list[0].description}}
+        </div>
+    </div>
+</div>
