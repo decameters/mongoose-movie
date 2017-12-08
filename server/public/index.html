@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="vendors/bootstrap.css">
+    <script src="vendors/angular/angular.js"></script>
+    <script src="vendors/angular-route/angular-route.js"></script>
+    <script src="scripts/client.js"></script>
+
+
+    <!-- CONTROLLERS -->
+    <script src="scripts/controllers/movie.controller.js"></script>
+
+    <!-- SERVICES -->
+    <script src="scripts/services/movie.service.js"></script>
+</head>
+<body ng-app="MovieApp">
+  
+    <a href="#!">Movies</a>
+    <ng-view></ng-view>
+</body>
+</html>
