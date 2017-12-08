@@ -1,3 +1,12 @@
-<h1>MOVIES GALORE</h1>
-
-{{ 1 + 1}}
+<div class="jumbotron">
+    <h1 class="display-3">Movies</h1>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4" ng-repeat="movie in vm.movie.list">
+            <p>
+                <img ng-click="" ng-src="{{movie.posterUrl}}" width="250"/>
+            </p>
+        </div>
+    </div>
+</div>
