@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,11 +20,17 @@
     <!-- SERVICES -->
     <script src="scripts/services/movie.service.js"></script>
 </head>
-<body ng-app="MovieApp">
 
-    <a href="#!">Movies</a>
-    <a href="#!addmovie">Add A Movie</a>
+<body ng-app="MovieApp">
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-text">
+            <a class="navbar-brand" href="#">Movies Galore</a>
+            <a class="navbar-brand" href="#!addmovie">Add A Movie</a>
+        </span>
+    </nav>
+
     <ng-view></ng-view>
-    
+
 </body>
+
 </html>
